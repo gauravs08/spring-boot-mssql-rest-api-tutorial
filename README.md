@@ -1,6 +1,6 @@
-# Spring Boot, MySQL, JPA, Hibernate Rest API Tutorial
+# Spring Boot, MSSQL, JPA, Hibernate Rest API Tutorial
 
-Build Restful CRUD API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Hibernate.
+Build Restful CRUD API for a simple Note-Taking application using Spring Boot, MSsql, JPA and Hibernate.
 
 ## Requirements
 
@@ -8,7 +8,7 @@ Build Restful CRUD API for a simple Note-Taking application using Spring Boot, M
 
 2. Maven - 3.x.x
 
-3. Mysql - 5.x.x
+3. MS sql - 5.x.x
 
 ## Steps to Setup
 
@@ -18,16 +18,16 @@ Build Restful CRUD API for a simple Note-Taking application using Spring Boot, M
 git clone https://github.com/gauravs08/spring-boot-mssql-rest-api-tutorial.git
 ```
 
-**2. Create Mysql database**
+**2. Create MS sql database**
 ```bash
 create database notes_app
 ```
 
-**3. Change mysql username and password as per your installation**
+**3. Change mssql username and password as per your installation**
 
 + open `src/main/resources/application.properties`
 
-+ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
++ change `spring.datasource.username` and `spring.datasource.password` as per your mssql installation
 
 **4. Build and run the app using maven**
 
